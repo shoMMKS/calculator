@@ -1,0 +1,14 @@
+{
+  "name": "shift-maker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shoMMKS <sho15-kanan-town-1739@ezweb.ne.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
