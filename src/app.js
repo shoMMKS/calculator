@@ -1,10 +1,13 @@
 import React from 'react'
+import { Provider } from 'react-redux'
+import store from './redux/store'
+import Calculator from './calculator'
 
-const App = props => {
+const App = () => {
   return (
-    <div>
-      Hello,World!
-    </div>
+    <Provider store={store}>
+      <Calculator />
+    </Provider>
   )
 }
 
